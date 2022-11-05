@@ -43,6 +43,8 @@ git describe --abbrev=<num_characters>
 
 We're able to use github workoflows to publish to the github container registry [ghcr.io](ghcr.io) - see the file `.github/workflows/deploy-image.yml` for details and [this guide](https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions) for more information.
 
+This workflow publishes an image to the container registry whenever a commit is pushed to the `release` branch.
+
 Docker has some good example workflows using the GitHub Actions
 https://docs.docker.com/build/ci/github-actions/examples/
 
