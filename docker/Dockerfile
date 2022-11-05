@@ -1,0 +1,1 @@
+FROM osrf/ros:galactic-desktop AS my-image
