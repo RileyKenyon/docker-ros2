@@ -43,4 +43,8 @@ git describe --abbrev=<num_characters>
 
 We're able to use github workoflows to publish to the github container registry [ghcr.io](ghcr.io) - see the file `.github/workflows/deploy-image.yml` for details and [this guide](https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions) for more information.
 
-
+## Pulling from the container registry
+To pull the image from the ghcr use the following syntax:
+```
+docker pull ghcr.io/rileykenyon/docker-ros2:v0.0.1
+```
